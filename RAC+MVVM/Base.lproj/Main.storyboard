@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2s2-jf-Gcl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="clE-yg-2u3"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ho-L2-iNT">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="i2g-wU-1dC"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-1u-jjF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iay-cY-v65"/>
+                                </constraints>
+                                <state key="normal" title="登录"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2s2-jf-Gcl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Hs4-Ov-ekF"/>
+                            <constraint firstItem="vd3-1u-jjF" firstAttribute="top" secondItem="8Ho-L2-iNT" secondAttribute="bottom" constant="30" id="KOT-Ig-chd"/>
+                            <constraint firstItem="8Ho-L2-iNT" firstAttribute="width" secondItem="2s2-jf-Gcl" secondAttribute="width" id="S7v-dZ-0q7"/>
+                            <constraint firstItem="8Ho-L2-iNT" firstAttribute="leading" secondItem="2s2-jf-Gcl" secondAttribute="leading" id="WeV-wT-4Qc"/>
+                            <constraint firstItem="8Ho-L2-iNT" firstAttribute="trailing" secondItem="2s2-jf-Gcl" secondAttribute="trailing" id="Z5P-6d-3u7"/>
+                            <constraint firstItem="8Ho-L2-iNT" firstAttribute="top" secondItem="2s2-jf-Gcl" secondAttribute="bottom" constant="30" id="ZD9-cL-5Rv"/>
+                            <constraint firstAttribute="trailing" secondItem="2s2-jf-Gcl" secondAttribute="trailing" constant="20" id="j9Q-Wl-kgp"/>
+                            <constraint firstAttribute="trailing" secondItem="vd3-1u-jjF" secondAttribute="trailing" constant="30" id="oBk-ze-w3v"/>
+                            <constraint firstItem="2s2-jf-Gcl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="oFK-wO-wJ4"/>
+                            <constraint firstItem="vd3-1u-jjF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="rm9-UD-cfy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="vd3-1u-jjF" id="yNj-dn-WCR"/>
+                        <outlet property="passWordTextField" destination="8Ho-L2-iNT" id="ZkJ-KM-uuu"/>
+                        <outlet property="userNameTextField" destination="2s2-jf-Gcl" id="tHg-0X-dKd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

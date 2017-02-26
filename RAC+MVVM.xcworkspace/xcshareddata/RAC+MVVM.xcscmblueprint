@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "501A4EED954D5CB62C20505256B74443BDFD80E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B263ACE6BFA7897D00D8009D4C327A293BB6936C" : 9223372036854775807,
+    "501A4EED954D5CB62C20505256B74443BDFD80E9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FCFA3C01-BB62-473E-B690-E5CA701630F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B263ACE6BFA7897D00D8009D4C327A293BB6936C" : "",
+    "501A4EED954D5CB62C20505256B74443BDFD80E9" : "RAC+MVVMDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RAC+MVVM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RAC+MVVM.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:1047800338\/RAC-MVVM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "501A4EED954D5CB62C20505256B74443BDFD80E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:1047800338\/RAC-MVVM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B263ACE6BFA7897D00D8009D4C327A293BB6936C"
+    }
+  ]
+}
